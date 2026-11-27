@@ -1,0 +1,386 @@
+{
+  "shows": [
+    {
+      "id": "cafe-medialunas-max",
+      "name": "Café con Medialunas",
+      "tagline": "Novedades y acompañamiento",
+      "audience": "internal",
+      "style_profile": "oficina",
+      "default_playlists": [
+        "pl_cultura",
+        "pl_liderazgo"
+      ],
+      "music_bed_style": "pastel_acoustic_warm",
+      "cover_image": "/static/covers/prog_16.png"
+    },
+    {
+      "id": "prog-01-tech-people",
+      "name": "Tech & People",
+      "tagline": "Tecnología con propósito",
+      "audience": "public",
+      "style_profile": "oficina",
+      "default_playlists": [
+        "pl_tech",
+        "pl_cultura"
+      ],
+      "music_bed_style": "warm_ambient_chords",
+      "cover_image": "/static/covers/prog_01.png"
+    },
+    {
+      "id": "prog-02-mente-productiva",
+      "name": "Mente Productiva",
+      "tagline": "Enfoque, hábitos y rendimiento",
+      "audience": "internal",
+      "style_profile": "oficina",
+      "default_playlists": [
+        "pl_bienestar"
+      ],
+      "music_bed_style": "pastel_acoustic_warm",
+      "cover_image": "/static/covers/prog_02.png"
+    },
+    {
+      "id": "prog-03-estrategia-360",
+      "name": "Estrategia 360°",
+      "tagline": "Pensamiento crítico para decidir mejor",
+      "audience": "public",
+      "style_profile": "empresarial",
+      "default_playlists": [
+        "pl_liderazgo"
+      ],
+      "music_bed_style": "cinematic_pulse_soft",
+      "cover_image": "/static/covers/prog_03.png"
+    },
+    {
+      "id": "prog-04-dev-mindset",
+      "name": "Dev Mindset",
+      "tagline": "Aprende. Construye. Comparte.",
+      "audience": "internal",
+      "style_profile": "streamer",
+      "default_playlists": [
+        "pl_tech"
+      ],
+      "music_bed_style": "warm_ambient_chords",
+      "cover_image": "/static/covers/prog_04.png"
+    },
+    {
+      "id": "prog-05-growth-talks",
+      "name": "Growth Talks",
+      "tagline": "Desarrollo personal y profesional",
+      "audience": "internal",
+      "style_profile": "relajante",
+      "default_playlists": [
+        "pl_bienestar",
+        "pl_cultura"
+      ],
+      "music_bed_style": "pastel_acoustic_warm",
+      "cover_image": "/static/covers/prog_05.png"
+    },
+    {
+      "id": "prog-06-ideas-inspiran",
+      "name": "Ideas que Inspiran",
+      "tagline": "Conversaciones para avanzar",
+      "audience": "public",
+      "style_profile": "oficina",
+      "default_playlists": [
+        "pl_cultura"
+      ],
+      "music_bed_style": "pastel_acoustic_warm",
+      "cover_image": "/static/covers/prog_06.png"
+    },
+    {
+      "id": "prog-07-trabajo-equipo",
+      "name": "Trabajo en Equipo",
+      "tagline": "Colaboración que multiplica",
+      "audience": "internal",
+      "style_profile": "oficina",
+      "default_playlists": [
+        "pl_liderazgo",
+        "pl_cultura"
+      ],
+      "music_bed_style": "pastel_acoustic_warm",
+      "cover_image": "/static/covers/prog_07.png"
+    },
+    {
+      "id": "prog-08-liderazgo-real",
+      "name": "Liderazgo Real",
+      "tagline": "Liderar con empatía y visión",
+      "audience": "public",
+      "style_profile": "empresarial",
+      "default_playlists": [
+        "pl_liderazgo"
+      ],
+      "music_bed_style": "cinematic_pulse_soft",
+      "cover_image": "/static/covers/prog_08.png"
+    },
+    {
+      "id": "prog-09-futuro-digital",
+      "name": "Futuro Digital",
+      "tagline": "Tendencias que transforman",
+      "audience": "public",
+      "style_profile": "streamer",
+      "default_playlists": [
+        "pl_tech"
+      ],
+      "music_bed_style": "warm_ambient_chords",
+      "cover_image": "/static/covers/prog_09.png"
+    },
+    {
+      "id": "prog-10-comunica-mejor",
+      "name": "Comunica Mejor",
+      "tagline": "Habla, conecta, convence",
+      "audience": "internal",
+      "style_profile": "empresarial",
+      "default_playlists": [
+        "pl_liderazgo"
+      ],
+      "music_bed_style": "pastel_acoustic_warm",
+      "cover_image": "/static/covers/prog_10.png"
+    },
+    {
+      "id": "prog-11-enfoque-total",
+      "name": "Enfoque Total",
+      "tagline": "Prioriza. Organiza. Logra.",
+      "audience": "internal",
+      "style_profile": "oficina",
+      "default_playlists": [
+        "pl_bienestar"
+      ],
+      "music_bed_style": "pastel_acoustic_warm",
+      "cover_image": "/static/covers/prog_11.png"
+    },
+    {
+      "id": "prog-12-bienestar-integral",
+      "name": "Bienestar Integral",
+      "tagline": "Equilibrio para una vida plena",
+      "audience": "internal",
+      "style_profile": "relajante",
+      "default_playlists": [
+        "pl_bienestar"
+      ],
+      "music_bed_style": "pastel_acoustic_warm",
+      "cover_image": "/static/covers/prog_12.png"
+    },
+    {
+      "id": "prog-13-productividad-sin-limites",
+      "name": "Productividad Sin Límites",
+      "tagline": "Herramientas y hábitos para lograr más",
+      "audience": "internal",
+      "style_profile": "streamer",
+      "default_playlists": [
+        "pl_bienestar",
+        "pl_tech"
+      ],
+      "music_bed_style": "warm_ambient_chords",
+      "cover_image": "/static/covers/prog_13.png"
+    },
+    {
+      "id": "prog-14-innovacion-accion",
+      "name": "Innovación en Acción",
+      "tagline": "Ideas que construyen el mañana",
+      "audience": "public",
+      "style_profile": "empresarial",
+      "default_playlists": [
+        "pl_tech",
+        "pl_liderazgo"
+      ],
+      "music_bed_style": "cinematic_pulse_soft",
+      "cover_image": "/static/covers/prog_14.png"
+    },
+    {
+      "id": "prog-15-mentalidad-crecimiento",
+      "name": "Mentalidad de Crecimiento",
+      "tagline": "Piensa diferente, logra más",
+      "audience": "internal",
+      "style_profile": "relajante",
+      "default_playlists": [
+        "pl_bienestar"
+      ],
+      "music_bed_style": "pastel_acoustic_warm",
+      "cover_image": "/static/covers/prog_15.png"
+    },
+    {
+      "id": "prog-16-conversaciones-proposito",
+      "name": "Conversaciones con Propósito",
+      "tagline": "Historias que inspiran",
+      "audience": "public",
+      "style_profile": "relajante",
+      "default_playlists": [
+        "pl_cultura"
+      ],
+      "music_bed_style": "pastel_acoustic_warm",
+      "cover_image": "/static/covers/prog_16.png"
+    }
+  ],
+  "personas": [
+    {
+      "id": "persona_dalia",
+      "name": "Dalia Vargas",
+      "role": "Voz Femenina Neutra (Cálida y versátil — Oficina / Relajante)",
+      "voice_id": "es-MX-DaliaNeural",
+      "pitch": "+0Hz",
+      "rate": "+2%",
+      "is_preconfigured": true
+    },
+    {
+      "id": "persona_jorge",
+      "name": "Jorge Solís",
+      "role": "Voz Masculina Neutra (Naturalidad estándar — Todo perfil)",
+      "voice_id": "es-MX-JorgeNeural",
+      "pitch": "-1Hz",
+      "rate": "+2%",
+      "is_preconfigured": true
+    },
+    {
+      "id": "persona_salome",
+      "name": "Salomé Méndez",
+      "role": "Voz Femenina Neutra (Clara y expresiva — Streamer / Dinámica)",
+      "voice_id": "es-CO-SalomeNeural",
+      "pitch": "+1Hz",
+      "rate": "+3%",
+      "is_preconfigured": true
+    },
+    {
+      "id": "persona_gonzalo",
+      "name": "Gonzalo Herrera",
+      "role": "Voz Masculina Neutra (Amigable y cercano — Oficina / Streamer)",
+      "voice_id": "es-CO-GonzaloNeural",
+      "pitch": "+0Hz",
+      "rate": "+3%",
+      "is_preconfigured": true
+    },
+    {
+      "id": "persona_paloma",
+      "name": "Paloma Duarte",
+      "role": "Voz Femenina Neutra Panregional (Ejecutiva — Empresarial)",
+      "voice_id": "es-US-PalomaNeural",
+      "pitch": "-1Hz",
+      "rate": "+0%",
+      "is_preconfigured": true
+    },
+    {
+      "id": "persona_alonso",
+      "name": "Alonso Silva",
+      "role": "Voz Masculina Neutra Panregional (Grave y firme — Empresarial)",
+      "voice_id": "es-US-AlonsoNeural",
+      "pitch": "-2Hz",
+      "rate": "-1%",
+      "is_preconfigured": true
+    },
+    {
+      "id": "persona_maria",
+      "name": "María Cordero",
+      "role": "Voz Femenina Neutra (Suave, pausada y orgánica — Relajante)",
+      "voice_id": "es-CR-MariaNeural",
+      "pitch": "-1Hz",
+      "rate": "-2%",
+      "is_preconfigured": true
+    },
+    {
+      "id": "persona_luis",
+      "name": "Luis Andrade",
+      "role": "Voz Masculina Neutra (Articulación limpia y serena — Relajante)",
+      "voice_id": "es-EC-LuisNeural",
+      "pitch": "-1Hz",
+      "rate": "-3%",
+      "is_preconfigured": true
+    }
+  ],
+  "preset_covers": [
+    {
+      "id": "cov_01",
+      "show_id": "prog-01-tech-people",
+      "label": "Tech & People",
+      "url": "/static/covers/prog_01.png"
+    },
+    {
+      "id": "cov_02",
+      "show_id": "prog-02-mente-productiva",
+      "label": "Mente Productiva",
+      "url": "/static/covers/prog_02.png"
+    },
+    {
+      "id": "cov_03",
+      "show_id": "prog-03-estrategia-360",
+      "label": "Estrategia 360°",
+      "url": "/static/covers/prog_03.png"
+    },
+    {
+      "id": "cov_04",
+      "show_id": "prog-04-dev-mindset",
+      "label": "Dev Mindset",
+      "url": "/static/covers/prog_04.png"
+    },
+    {
+      "id": "cov_05",
+      "show_id": "prog-05-growth-talks",
+      "label": "Growth Talks",
+      "url": "/static/covers/prog_05.png"
+    },
+    {
+      "id": "cov_06",
+      "show_id": "prog-06-ideas-inspiran",
+      "label": "Ideas que Inspiran",
+      "url": "/static/covers/prog_06.png"
+    },
+    {
+      "id": "cov_07",
+      "show_id": "prog-07-trabajo-equipo",
+      "label": "Trabajo en Equipo",
+      "url": "/static/covers/prog_07.png"
+    },
+    {
+      "id": "cov_08",
+      "show_id": "prog-08-liderazgo-real",
+      "label": "Liderazgo Real",
+      "url": "/static/covers/prog_08.png"
+    },
+    {
+      "id": "cov_09",
+      "show_id": "prog-09-futuro-digital",
+      "label": "Futuro Digital",
+      "url": "/static/covers/prog_09.png"
+    },
+    {
+      "id": "cov_10",
+      "show_id": "prog-10-comunica-mejor",
+      "label": "Comunica Mejor",
+      "url": "/static/covers/prog_10.png"
+    },
+    {
+      "id": "cov_11",
+      "show_id": "prog-11-enfoque-total",
+      "label": "Enfoque Total",
+      "url": "/static/covers/prog_11.png"
+    },
+    {
+      "id": "cov_12",
+      "show_id": "prog-12-bienestar-integral",
+      "label": "Bienestar Integral",
+      "url": "/static/covers/prog_12.png"
+    },
+    {
+      "id": "cov_13",
+      "show_id": "prog-13-productividad-sin-limites",
+      "label": "Productividad Sin Límites",
+      "url": "/static/covers/prog_13.png"
+    },
+    {
+      "id": "cov_14",
+      "show_id": "prog-14-innovacion-accion",
+      "label": "Innovación en Acción",
+      "url": "/static/covers/prog_14.png"
+    },
+    {
+      "id": "cov_15",
+      "show_id": "prog-15-mentalidad-crecimiento",
+      "label": "Mentalidad de Crecimiento",
+      "url": "/static/covers/prog_15.png"
+    },
+    {
+      "id": "cov_16",
+      "show_id": "prog-16-conversaciones-proposito",
+      "label": "Conversaciones con Propósito",
+      "url": "/static/covers/prog_16.png"
+    }
+  ]
+}

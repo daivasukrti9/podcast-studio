@@ -1,0 +1,76 @@
+{
+  "organization": "Comunidad & Innovación Corporativa",
+  "architecture": "Raíz Común, Ramas Libres (Branded House)",
+  "audio_standards": {
+    "voice_target_lufs": -16.0,
+    "music_bed_max_lufs": -24.0,
+    "ducking_attenuation_db": -19.0,
+    "min_transition_interval_seconds": 90,
+    "sample_rate": 44100,
+    "channels": 2
+  },
+  "goldfish_sound_rules": {
+    "mandatory_negative_prompts": [
+      "harsh",
+      "distorted",
+      "sci-fi laser",
+      "loud percussion",
+      "vocals",
+      "jarring",
+      "metallic screech",
+      "aggressive synth"
+    ],
+    "preferred_textures": [
+      "warm analog pad",
+      "soft acoustic felt piano",
+      "subtle lo-fi rain ambiance",
+      "gentle organic marimba pulse"
+    ],
+    "frequency_limit_rule": "Regla de los 90 segundos: Solo insertar micro-transiciones en cambios de bloque temático real y nunca con menos de 90s de separación."
+  },
+  "governance": {
+    "confidential_patterns": [
+      "proyecto_secreto",
+      "ebitda_interno",
+      "clave_interna",
+      "servidor_produccion_ip",
+      "reestructuracion_rrhh",
+      "presupuesto_confidencial",
+      "meta_trimestral_privada"
+    ],
+    "ethical_guidelines": [
+      "Equilibrar el desarrollo del recurso humano con la innovación tecnológica.",
+      "Promover la participación abierta donde cada integrante aporte desde su afinidad.",
+      "Traducir el tecnicismo en visión humana, reflexión ética y aprendizaje colectivo.",
+      "Evitar clichés robóticos de IA; priorizar calidez, curiosidad y diálogo natural."
+    ]
+  },
+  "themes": {
+    "mode_1_base": {
+      "id": "murmur-blue-hour",
+      "name": "Modo 1: Murmur Blue Hour (Base Cinematográfico)",
+      "description": "Hora azul a través de ventana con lluvia, luces bokeh cálidas, tipografía Newsreader + Inter + IBM Plex Mono, cristal azul profundo.",
+      "palette": {
+        "bg_glass": "rgba(8, 21, 62, 0.84)",
+        "border": "rgba(132, 146, 255, 0.38)",
+        "accent_primary": "#86A2FF",
+        "accent_secondary": "#A083FF",
+        "text_main": "#FFFFFF",
+        "text_muted": "#b9c4ea"
+      }
+    },
+    "mode_2_pastel": {
+      "id": "lume-warm-pastel",
+      "name": "Modo 2: Lume Pastel Familiar (Cálido & Acogedor)",
+      "description": "Entorno soleado y familiar con mascota, tipografía Instrument Serif + Inter, paleta pastel cálida (crema suave, salvia pastel, durazno y lavanda cálida).",
+      "palette": {
+        "cream": "#eef0d0",
+        "pastel_peach": "#f9dcc4",
+        "pastel_sage": "#d8e2dc",
+        "pastel_blush": "#fce1e4",
+        "pastel_lavender": "#e8dff5",
+        "ink": "#1a1a12"
+      }
+    }
+  }
+}

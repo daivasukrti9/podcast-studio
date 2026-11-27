@@ -1,0 +1,25 @@
+{
+  "playlists": [
+    {
+      "id": "pl_tech",
+      "name": "Tecnología, Dev y Futuro Digital",
+      "description": "Tech & People, Dev Mindset, Futuro Digital e Innovación en Acción"
+    },
+    {
+      "id": "pl_liderazgo",
+      "name": "Liderazgo, Estrategia y Equipo",
+      "description": "Estrategia 360°, Liderazgo Real, Trabajo en Equipo y Comunica Mejor"
+    },
+    {
+      "id": "pl_bienestar",
+      "name": "Bienestar, Enfoque y Productividad",
+      "description": "Mente Productiva, Growth Talks, Enfoque Total, Bienestar Integral y Mentalidad de Crecimiento"
+    },
+    {
+      "id": "pl_cultura",
+      "name": "Cultura y Conversaciones con Propósito",
+      "description": "Café con Medialunas by Max, Ideas que Inspiran y Conversaciones con Propósito"
+    }
+  ],
+  "episodes": []
+}

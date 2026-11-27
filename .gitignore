@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.db
+*.sqlite
+*.key
+*.pem
+config/.local_users_vault.json
+outputs/*
+!outputs/.gitkeep
+dist_github/

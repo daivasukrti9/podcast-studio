@@ -1,0 +1,81 @@
+{
+  "languages": [
+    {"id": "es", "name": "Español (Neutro Internacional)"},
+    {"id": "en", "name": "English (International / US)"},
+    {"id": "pt", "name": "Português (Brasil / Internacional)"}
+  ],
+  "profiles": [
+    {
+      "id": "oficina",
+      "name": "Oficina (Colaborativo y fluido)",
+      "rate_shift": 1,
+      "pitch_shift": 0,
+      "silence_min_ms": 200,
+      "silence_max_ms": 360,
+      "pause_short_ms": 560,
+      "overlap_ms": 140
+    },
+    {
+      "id": "empresarial",
+      "name": "Empresarial (Ejecutivo y estratégico)",
+      "rate_shift": -2,
+      "pitch_shift": -1,
+      "silence_min_ms": 250,
+      "silence_max_ms": 400,
+      "pause_short_ms": 660,
+      "overlap_ms": 120
+    },
+    {
+      "id": "streamer",
+      "name": "Streamer (Ágil y expresivo)",
+      "rate_shift": 4,
+      "pitch_shift": 1,
+      "silence_min_ms": 170,
+      "silence_max_ms": 300,
+      "pause_short_ms": 500,
+      "overlap_ms": 160
+    },
+    {
+      "id": "relajante",
+      "name": "Relajante (Nocturno y sereno)",
+      "rate_shift": -6,
+      "pitch_shift": -2,
+      "silence_min_ms": 280,
+      "silence_max_ms": 450,
+      "pause_short_ms": 740,
+      "overlap_ms": 100
+    }
+  ],
+  "voices_by_language": {
+    "es": [
+      {"id": "persona_es_dalia", "name": "Dalia Vargas", "lang": "es", "gender": "F", "role": "Cálida y natural (Oficina / Relajante)", "voice_id": "es-MX-DaliaNeural", "qwen_voice": "Serena", "pitch": "+0Hz", "rate": "+1%"},
+      {"id": "persona_es_jorge", "name": "Jorge Solís", "lang": "es", "gender": "M", "role": "Naturalidad estándar (Todo perfil)", "voice_id": "es-MX-JorgeNeural", "qwen_voice": "Ethan", "pitch": "-1Hz", "rate": "+1%"},
+      {"id": "persona_es_ava", "name": "Elena HD (Multilingual)", "lang": "es", "gender": "F", "role": "Voz HD de nueva generación (Conversación fluida)", "voice_id": "en-US-AvaMultilingualNeural", "qwen_voice": "Cherry", "pitch": "+0Hz", "rate": "+0%"},
+      {"id": "persona_es_andrew", "name": "Andrés HD (Multilingual)", "lang": "es", "gender": "M", "role": "Voz HD de nueva generación (Cálida de estudio)", "voice_id": "en-US-AndrewMultilingualNeural", "qwen_voice": "Ethan", "pitch": "+0Hz", "rate": "+0%"},
+      {"id": "persona_es_salome", "name": "Salomé Méndez", "lang": "es", "gender": "F", "role": "Clara y expresiva (Dinámica / Streamer)", "voice_id": "es-CO-SalomeNeural", "qwen_voice": "Chelsie", "pitch": "+0Hz", "rate": "+2%"},
+      {"id": "persona_es_gonzalo", "name": "Gonzalo Herrera", "lang": "es", "gender": "M", "role": "Cercano y amigable (Oficina / Dinámico)", "voice_id": "es-CO-GonzaloNeural", "qwen_voice": "Ethan", "pitch": "+0Hz", "rate": "+2%"},
+      {"id": "persona_es_paloma", "name": "Paloma Duarte", "lang": "es", "gender": "F", "role": "Ejecutiva panregional (Empresarial)", "voice_id": "es-US-PalomaNeural", "qwen_voice": "Serena", "pitch": "-1Hz", "rate": "+0%"},
+      {"id": "persona_es_alonso", "name": "Alonso Silva", "lang": "es", "gender": "M", "role": "Grave y firme (Empresarial / Relajante)", "voice_id": "es-US-AlonsoNeural", "qwen_voice": "Ethan", "pitch": "-1Hz", "rate": "-1%"}
+    ],
+    "en": [
+      {"id": "persona_en_ava", "name": "Ava Sterling", "lang": "en", "gender": "F", "role": "Warm Studio Host HD (All Profiles)", "voice_id": "en-US-AvaMultilingualNeural", "qwen_voice": "Cherry", "pitch": "+0Hz", "rate": "+0%"},
+      {"id": "persona_en_andrew", "name": "Andrew Mercer", "lang": "en", "gender": "M", "role": "Natural Conversational Co-Host HD", "voice_id": "en-US-AndrewMultilingualNeural", "qwen_voice": "Ethan", "pitch": "+0Hz", "rate": "+0%"},
+      {"id": "persona_en_emma", "name": "Emma Collins", "lang": "en", "gender": "F", "role": "Thoughtful & Articulate HD (Executive / Calm)", "voice_id": "en-US-EmmaMultilingualNeural", "qwen_voice": "Serena", "pitch": "+0Hz", "rate": "+0%"},
+      {"id": "persona_en_brian", "name": "Brian Brooks", "lang": "en", "gender": "M", "role": "Friendly & Engaging HD (Office / Streamer)", "voice_id": "en-US-BrianMultilingualNeural", "qwen_voice": "Ethan", "pitch": "+0Hz", "rate": "+1%"},
+      {"id": "persona_en_aria", "name": "Aria Bennett", "lang": "en", "gender": "F", "role": "Expressive & Clear (Dynamic)", "voice_id": "en-US-AriaNeural", "qwen_voice": "Chelsie", "pitch": "+0Hz", "rate": "+1%"},
+      {"id": "persona_en_christopher", "name": "Christopher Hayes", "lang": "en", "gender": "M", "role": "Steady & Executive (Business)", "voice_id": "en-US-ChristopherNeural", "qwen_voice": "Ethan", "pitch": "-1Hz", "rate": "+0%"},
+      {"id": "persona_en_jenny", "name": "Jenny Parker", "lang": "en", "gender": "F", "role": "Relaxed & Approachable (Community)", "voice_id": "en-US-JennyNeural", "qwen_voice": "Serena", "pitch": "+0Hz", "rate": "+0%"},
+      {"id": "persona_en_guy", "name": "Guy Wallace", "lang": "en", "gender": "M", "role": "Reflective & Calm (Late-Night)", "voice_id": "en-US-GuyNeural", "qwen_voice": "Ethan", "pitch": "-1Hz", "rate": "-1%"}
+    ],
+    "pt": [
+      {"id": "persona_pt_thalita", "name": "Thalita Costa", "lang": "pt", "gender": "F", "role": "Voz HD Natural e Acolhedora (Todos os perfis)", "voice_id": "pt-BR-ThalitaMultilingualNeural", "qwen_voice": "Serena", "pitch": "+0Hz", "rate": "+0%"},
+      {"id": "persona_pt_antonio", "name": "Antônio Almeida", "lang": "pt", "gender": "M", "role": "Naturalidade e Clareza (Todos os perfis)", "voice_id": "pt-BR-AntonioNeural", "qwen_voice": "Ethan", "pitch": "+0Hz", "rate": "+1%"},
+      {"id": "persona_pt_francisca", "name": "Francisca Ribeiro", "lang": "pt", "gender": "F", "role": "Calorosa e Conversacional (Escritório / Calmo)", "voice_id": "pt-BR-FranciscaNeural", "qwen_voice": "Cherry", "pitch": "+0Hz", "rate": "+1%"},
+      {"id": "persona_pt_fabio", "name": "Fábio Mendes", "lang": "pt", "gender": "M", "role": "Executivo e Estratégico (Empresarial)", "voice_id": "pt-BR-FabioNeural", "qwen_voice": "Ethan", "pitch": "-1Hz", "rate": "+0%"},
+      {"id": "persona_pt_giovanna", "name": "Giovanna Lima", "lang": "pt", "gender": "F", "role": "Expressiva e Ágil (Streamer / Dinâmica)", "voice_id": "pt-BR-GiovannaNeural", "qwen_voice": "Chelsie", "pitch": "+0Hz", "rate": "+2%"},
+      {"id": "persona_pt_humberto", "name": "Humberto Rocha", "lang": "pt", "gender": "M", "role": "Sereno e Reflexivo (Noturno)", "voice_id": "pt-BR-HumbertoNeural", "qwen_voice": "Ethan", "pitch": "-1Hz", "rate": "-1%"},
+      {"id": "persona_pt_leila", "name": "Leila Nogueira", "lang": "pt", "gender": "F", "role": "Profissional e Clara (Empresarial)", "voice_id": "pt-BR-LeilaNeural", "qwen_voice": "Serena", "pitch": "+0Hz", "rate": "+0%"},
+      {"id": "persona_pt_julio", "name": "Júlio Barros", "lang": "pt", "gender": "M", "role": "Amigável e Colaborativo (Comunidade)", "voice_id": "pt-BR-JulioNeural", "qwen_voice": "Ethan", "pitch": "+0Hz", "rate": "+1%"}
+    ]
+  }
+}
